@@ -1,0 +1,13 @@
+.alert {
+  position: absolute;
+  bottom: 3vmax;
+  right: 3vmax;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: left;
+  .close {
+    cursor: pointer;
+    margin-left: 20px;
+    float: right;
+  }
+}

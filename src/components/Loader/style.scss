@@ -1,0 +1,28 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.loader:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 50%;
+  border: 6px solid;
+  border-color: #00fff4 transparent #00fff4 transparent;
+  animation: loader 2s linear infinite;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
