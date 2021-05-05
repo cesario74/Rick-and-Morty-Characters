@@ -24,7 +24,7 @@ For example, with this it is possible to search by surname, without need to writ
 The limit of characters to be displayed is passed in props to the Homepage view.\
 The Homepage view makes requests to the api and fetch all the passed number of characters.\
 While the number of characters is not reached, it will be called the api with the url containing the following characters.\
-Axios is used to make the api requests.
+Axios is used to make the requests to rick and morty api.
 
 ## TODO
 
